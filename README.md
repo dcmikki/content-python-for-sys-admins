@@ -1,4 +1,4 @@
-# Python Scripting for System Administrators
+# Python Scripting for System Administrators. Clone of Linuxacademy
 
 The scripts written throughout the Python Scripting for Systems Administrators
 course videos and labs. This repository also includes the helper script to
