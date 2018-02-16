@@ -1,0 +1,18 @@
+#!/usr/bin/env python3.6
+
+numero = 42
+if numero > 21:
+    print('el numero es mayor de 21 amigo')
+elif numero < 21:
+    print('el numero es menor de 21 amigo')
+else:
+    print('Has acertado el numero 21!!!!!!!!!')
+
+
+nombre = 'Fernando'
+if len(nombre) >= 6:
+    print('tu nombre tiene mas de seis letras')
+elif len(nombre) == 5:
+    print('Tu nombre tiene exactamente 5 letras')
+else:
+    print('tu nombre tiene menos de 5 letras')

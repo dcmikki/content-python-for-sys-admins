@@ -1,0 +1,14 @@
+#!/usr/bin/env python3.6
+
+edades = {'Diego': 42, 'Tess': 36, 'Billy': 2, 'Benson': 20, 'Ambar': 15}
+
+for nombre, edad in edades.items():
+    #print(f"Persona: {nombre}")
+    #print(f"edad: {edad}")
+    print (f"Nombre: {nombre} y edad: {edad}")
+
+#print(edades)
+#print(edades.keys())
+#print(list(edades.keys()))
+#print(list(edades.values()))
+print(list(edades.items()))

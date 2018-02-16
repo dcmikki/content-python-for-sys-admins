@@ -1,0 +1,10 @@
+#!/usr/bin/env python3.6
+
+nombres = ['Diego', 'Tess', 'Benson', 'Billy', 'Ambar']
+for x in nombres:
+    if x == 'Tess':
+        continue
+    elif x == 'Benson':
+        break
+    print(x)
+
