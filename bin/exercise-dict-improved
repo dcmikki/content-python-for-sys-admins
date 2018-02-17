@@ -23,7 +23,7 @@ for user in users:
         prefix += " "
     else:
         prefix += "No hay ningun nombre de usuario!!"
-    line = line + 1
+    line += 1
     print(prefix)
 
 

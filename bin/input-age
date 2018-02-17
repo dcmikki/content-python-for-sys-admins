@@ -1,0 +1,10 @@
+#!/usr/bin/env python3.6
+
+nombre = input("Como te llamas? ")
+nacimiento = input("Cual es tu fecha de nacimiento completa? ")
+edad = int(input("Cuantos anos tienes? "))
+
+print(f"{nombre} nacio el {nacimiento}")
+print(f"La mitad de los anos de {nombre} es {edad / 2}\n")
+print(f"Te quedan {65 - edad} anos para jubilarte")
+
