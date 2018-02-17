@@ -1,0 +1,25 @@
+#!/usr/bin/env python3.6
+
+users = [
+    { 'admin': True, 'active': True, 'name': 'Diego' },
+    { 'admin': True, 'active': False, 'name': 'Tess' },
+    { 'admin': False, 'active': True, 'name': 'Benson' },
+    { 'admin': False, 'active': False, 'name': 'Billy' },
+    { 'admin': False, 'active': True, 'name': 'Ambar' },
+    { 'admin': False, 'active': False, 'name': '' }
+]
+
+line = 1
+for user in users:
+
+    if user['admin'] and user['active']:
+        print(f"{line}. {user['name']}:\t ACTIVE - (ADMIN)")
+    elif user['admin']:
+        print(f"{line}. {user['name']}:\t (ADMIN)")
+    elif user['active']:
+        print(f"{line}. {user['name']}:\t ACTIVE")
+    elif user['name']:
+        print(f"{line}. {user['name']}:\t")
+    else:
+        print("No haya ningun nombre en la lista !")
+    line = line + 1
