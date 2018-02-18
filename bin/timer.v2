@@ -1,0 +1,16 @@
+#!/usr/bin/env python3.6
+
+from time import localtime, strftime, mktime
+
+start_time = localtime()
+print(f"La hora de inicio es: {strftime('%X', start_time)}")
+
+# Esperar hasta parar el tiempo pulsando 'Enter'
+input("Presiona la tecla 'Enter', para hacer el calculo")
+
+stop_time = localtime()
+print(f"La hora final es: {strftime('%X', stop_time)}")
+
+# calculamos la diferencia con otra funcion del modulo "time"
+difference = mktime(stop_time) - mktime(start_time)
+print(f"La diferencia es de {difference} segundos")

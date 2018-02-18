@@ -1,0 +1,16 @@
+#!/usr/bin/env python3.6
+
+import os
+
+stage = os.environ["STAGE"].upper()
+
+if stage.startswith("PROD"):
+    print(f"PELIGRO!!!! - We're running in {stage} environment")
+else:
+    print(f"We're running in {stage} environment")
+
+
+
+
+
+#output = f"We're running in {stage} environment"

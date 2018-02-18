@@ -1,0 +1,9 @@
+Ubuntu
+Debian
+Linuxmint
+RedHat
+CentOS
+Manjaro
+FREEBSD
+SOLARIS
+ARCHLINUX
