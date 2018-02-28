@@ -1,9 +1,7 @@
 # Python Scripting for System Administrators. Clone of Linuxacademy
 
-The scripts written throughout the Python Scripting for Systems Administrators
-course videos and labs. This repository also includes the helper script to
-easily create a database server to follow along with the final section of the
-course.
+Aqui estan todos los scripts del curso y los que voy haciendo por mi cuenta y
+se encuentran en la carpeta /bin
 
 * [Helper files](/helpers)
 * [Course Scripts](/scripts)

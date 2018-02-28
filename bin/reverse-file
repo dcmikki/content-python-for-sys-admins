@@ -1,0 +1,33 @@
+#!/usr/bin/env python3.6
+
+import argparse
+
+# construir de parse
+parser = argparse.ArgumentParser(description='Este script leera un archivo de modo inverso a como fue creado')
+parser.add_argument('filename', help='the file to read')
+parser.add_argument('--limit', '-l', type=int, help='el numero de lineas a leer')
+parser.add_argument('--version', '-v', action='version', version='%(prog)s 1.1')
+
+
+args = parser.parse_args()
+
+with open(args.filename) as f:
+    lines = f.readlines()
+    lines.reverse()
+
+    if args.limit:
+        lines = lines[:args.limit]
+
+    for line in lines:
+        print(line.strip()[::-1])
+
+
+#print(args)
+
+# parse los argumentos
+
+
+# leer el archivo, poner a la inversa el contenido e imprimirlo en pantalla
+
+
+
