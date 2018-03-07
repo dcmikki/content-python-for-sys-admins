@@ -1,0 +1,15 @@
+#!/usr/bin/env python3.6
+
+from math import pi
+
+"""
+x = [str(round(pi, i)) for i in range(1, 10)]
+print(x)
+"""
+
+salida = []
+
+for i in range(1,10):
+    salida.append(str(round(pi, i)))
+
+print(salida)
